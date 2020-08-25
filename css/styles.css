@@ -10,19 +10,17 @@ html{
 }
 
 body{
-    margin:0;
-    padding:0;
-    font-size: 15px;
-    line-height: 1.4;
+    margin:0 5%;
+    font-size: 18px;
+    line-height: 1.0;
     font-weight: 200;
-    /* padding: 50px 10%; */
+    padding: 50px 0px;
     text-align: center;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 #container{
-    width:90%;
-    margin:auto;
+    /* margin:0 5%; */
 }
 header{
     font-size: 1.333em;
@@ -30,4 +28,13 @@ header{
 
 header >p{
     font-weight: 400;
+}
+header > h3{
+    font-weight: 600;
+}
+header>p:last-child{
+    font-weight: 200;
+    font-size: 1em;
+    /* text-align: center; */
+    
 }
