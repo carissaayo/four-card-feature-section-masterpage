@@ -124,3 +124,7 @@ img{
         margin-bottom: ;
     }
 }
+@media screen and (min-width:1065px){
+    header> p:last-child{
+        margin:0 15%;
+        padding:0 5%;
